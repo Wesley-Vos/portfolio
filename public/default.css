@@ -43,13 +43,11 @@ h2 {
 }
 
 .highlighted_title {
-    cursor: pointer;
     margin-top: 1.4em;
     padding: 1em;
     width: 100%;
     background-color: #fff;
     color: #1c1c1c;
-    transition: all .2s ease-in-out;
     z-index: 2;
     border-radius: 50px;
 }
@@ -67,7 +65,15 @@ h2 {
 .mainPhoto img {
     border: 10px solid #fff;
     border-radius: 50%;
-    width: clamp(200px,20vw,20vw);
+    width: clamp(200px, 20vw, 20vw);
+}
+@media (max-width: 700px) {
+    .mainPhoto img {
+        margin-bottom: 2em;
+    }
+    #main {
+        justify-content: center;
+    }
 }
 
 .view {
