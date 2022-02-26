@@ -1,36 +1,55 @@
 <template>
-  <div id="project">
-      <h1>{{ title }}</h1>
-      <p>{{ description }}</p>
+  <div class="project">
+    <h1>{{ project.title }}</h1>
+    <div class="projectBody row">
+      <div class="col-8 description">
+        <p>{{ project.description }}</p>
+      </div>
+      <div class="col-4">
+        <TechBadge v-for="tech in project.techStack" :key="tech" :tech="tech"/>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
+import TechBadge from "@/components/TechBadge";
+
 export default {
   name: 'ProjectComponent',
+  components: {
+    TechBadge
+  },
   props: {
-    title: String,
-    description: String,
-
+    project: Object
   }
 }
 </script>
 
 <style scoped>
-#project {
+.project {
   background-color: white;
   border-radius: 40px;
   color: black;
-  height: 100%
+  height: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
-p {
-  padding: 2vw;
+
+.description {
   text-align: left;
 }
 
 h1 {
-  padding: 2vw 2vw 0;
-  font-weight: 600 !important;
-
+  padding-top: 2vw;
+  font-weight: 300 !important;
+  font-size: clamp(20px, 2.8vw, 44px);
 }
+
+.projectBody {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+
 </style>
