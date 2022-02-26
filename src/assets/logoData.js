@@ -1,4 +1,24 @@
 export default {
+    ESPHome : {
+        name: "ESPHome",
+        path: "esphome.png"
+    },
+    HA: {
+        name: "Home Assistant",
+        path: "ha.png"
+    },
+    PHP: {
+        name: "PHP",
+        path: "php.png"
+    },
+    Vue: {
+        name: "Vue.js",
+        path: "vue.png"
+    },
+    qt: {
+        name: "Qt",
+        path: "qt.png"
+    },
     HTML: {
         name: "HTML5",
         path: "html5.png"

@@ -6,9 +6,6 @@
           <div class="col-md-6" v-for="project in projects" :key="project">
             <ProjectComponent :project="project"/>
           </div>
-          <div class="col-md-6" v-for="project in projects" :key="project">
-            <ProjectComponent :project="project"/>
-          </div>
 
         </div>
 

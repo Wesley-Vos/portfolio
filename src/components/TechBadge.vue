@@ -20,7 +20,7 @@ export default {
   color: white;
   padding: 1em;
   width: 100%;
-  background-color: #0d3249;
+  background-color: #04548a;
   z-index: 2;
   border-radius: 50px;
 
