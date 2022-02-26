@@ -1,24 +1,23 @@
 <template>
   <div id="home" class="view">
     <a href="https://www.linkedin.com/in/wesley-vos-09aba16a/"><img id="linkedInBadge" alt="LinkedIn page" src="../assets/linkedin.png"></a>
-    <HelloWorld/>
+    <HomeMe/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HomeMe from '@/components/HomeMe.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HomeMe
   }
 }
 </script>
 <style scoped>
 #linkedInBadge {
-  width: 3%;
+  width: 50px;
   position: absolute;
   top: 0;
   right: 0;
