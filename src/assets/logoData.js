@@ -19,6 +19,18 @@ export default {
         name: "Qt",
         path: "qt.png"
     },
+    qml: {
+        name: "QML",
+        path: "qml.png"
+    },
+    REST: {
+        name: "REST",
+        path: "rest.png"
+    },
+    swagger: {
+        name: "Swagger",
+        path: "swagger.png"
+    },
     HTML: {
         name: "HTML5",
         path: "html5.png"
@@ -46,5 +58,13 @@ export default {
     docker: {
         name: "Docker",
         path: "docker.png"
+    },
+    java: {
+        name: "Java",
+        path: "java.png"
+    },
+    c: {
+        name: "C",
+        path: "c.png"
     }
 }
