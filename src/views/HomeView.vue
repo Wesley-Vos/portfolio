@@ -31,4 +31,10 @@ export default {
   right: 4em;
   margin: 2em;
 }
+#home {
+  background-color: #042336;
+  height: 100vh;
+  justify-content: normal;
+}
+
 </style>

@@ -6,15 +6,14 @@
     </div>
     <div class="projectBody row">
       <div class="col-9 description">
-        <p class="text-dark">{{ project.summary }}</p>
-        <!--<p>Beschrijving</p>-->
+        <p class="text-dark" style="padding-bottom:1em">{{ project.summary }}</p>
         <p v-for="description in project.description" :key="description" class="text-muted">{{ description }}</p>
         <p class="projectEvaluation">Competenties || <span class="text-muted">{{ project.competences }}</span></p>
       </div>
       <div class="col-3">
         <TechBadge v-for="tech in project.techStack" :key="tech" :tech="tech"/>
       </div>
-      <img v-if="project.imagePath != null" style="width:90%; padding-top:2em" :src="require('@/assets/' + project.imagePath)"/>
+      <img v-if="project.imagePath != null" style="border-radius: 40px; width:95%; margin-top:2em" :src="require('@/assets/' + project.imagePath)"/>
     </div>
   </div>
 </template>
@@ -55,7 +54,6 @@ h1 {
 }
 
 .projectBody {
-  padding-top: 2vw;
   padding-bottom: 2vw;
   justify-content: center;
 }

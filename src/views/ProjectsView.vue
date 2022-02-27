@@ -1,7 +1,7 @@
 <template>
   <div id="projects" class="view">
     <div id="projectMain">
-      <h2>Projects.</h2><br>
+      <h1 class="viewHeader">Projects.</h1><br>
         <div class="row gy-4 gx-4 projectGrid">
           <div class="col-lg-6" v-for="project in projects" :key="project">
             <ProjectComponent :project="project"/>

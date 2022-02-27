@@ -1,12 +1,19 @@
 <template>
   <div id="footer">
-    <small>&copy; 2022 - Wesley Vos</small>
+    <small>&copy; 2021 - {{ currentYear() }} &ensp; <b>|</b> &ensp; Wesley Vos</small>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FooterComponent'
+  name: 'FooterComponent',
+  methods: {
+    currentYear: function (){
+      var today = new Date();
+      return today.getFullYear();
+    }
+  }
 }
 </script>
 <style scoped>
