@@ -8,10 +8,10 @@ export default
                 "Tijdens mijn studie heb ik in groepsverband een web applicatie gebouwd die data van Kamernet kon visualiseren." +
                 " De eerste stap in dit proces was het ontwerpen van een API (in de OpenAPI 3 standaard) die data kon aanleveren. " +
                 "De tweede stap was het bouwen van een backend die de API endpoints kon serveren, hiervoor is gekozen voor Java Spring Boot." +
-                " De laatste stap was het bouwen van de frontend (SAP) die de data van de backend kon visualiseren.",
+                " De laatste stap was het bouwen van de frontend (SPA) die de data van de backend kon visualiseren.",
                 "De backend en frontend ondersteunen beide de basis CRUD operaties. Een aantal ingebouwde functies zijn het zoeken van woningen op basis van filters, " +
                 "het toevoegen, aanpassen en verwijderen van woningen en het genereren van statistieken op basis van een filter.",
-                "Voor het deployen van deze applicatie is gebruik gemaakt voor een Docker stack van Maven (voor de Spring Boot backend), Nginx (voor de Vue.js frontend) en MariaDB als data opslag. " +
+                "Voor het deployen van deze applicatie is gebruik gemaakt van een Docker stack van Maven (voor de Spring Boot backend), Nginx (voor de Vue.js frontend) en MariaDB als data opslag. " +
                 "Dit had als voordeel dat de applicatie snel in gebruik te nemen is en beheer en onderhoud makkelijk uit te voeren is.",
                 "Door dit project is mijn passie voor webtechnologie naar een hoger niveau gestegen en heb ik Vue.js leren kennen, mijn eerste zeer postieve ervaring " +
                 "met frontend frameworks. Na afloop van dit project ben ik mijzelf blijven ontwikkelen in deze talen en heb ik ook dit portfolio gebouwd in Vue.js."
@@ -74,7 +74,7 @@ export default
                 LogoData.grafana
             ],
             summary: "Elk huis wordt comfortabeler als het slim is!",
-            imagePath: "ha_pool.png",
+            imagePath: "ha.png",
             githubLogo: "https://github.com/Wesley-Vos/HA-PoolControl",
             competences: "Automatisering | Containerisation | User Interfaces | Integraties "
         },

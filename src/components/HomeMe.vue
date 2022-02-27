@@ -21,4 +21,39 @@ export default {
 
 <style scoped>
 
+#main {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.mainText {
+  display: block;
+  /*clamp(32px,4vw,52px);*/
+}
+
+.mainText h3 {
+  text-align: center;
+  font-size: clamp(20px,2.8vw,44px);
+  margin: 0;
+  font-weight: 700;
+}
+
+.mainPhoto {
+  display: block;
+}
+.mainPhoto img {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  width: clamp(200px, 20vw, 20vw);
+}
+@media (max-width: 700px) {
+  .mainPhoto img {
+    margin-bottom: 2em;
+  }
+  #main {
+    justify-content: center;
+  }
+}
 </style>
