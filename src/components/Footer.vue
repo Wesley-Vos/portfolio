@@ -12,7 +12,7 @@ export default {
 <style scoped>
 #footer {
   margin: 5vh 0 5vh;
-  color: grey;
+  color: white;
 }
 </style>
 

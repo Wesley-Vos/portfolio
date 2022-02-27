@@ -23,6 +23,18 @@ export default {
         name: "QML",
         path: "qml.png"
     },
+    influxdb: {
+        name: "influxdb",
+        path: "influxdb.png"
+    },
+    mariadb: {
+        name: "MariaDB",
+        path: "mariadb.png",
+    },
+    grafana: {
+        name: "Grafana",
+        path: "grafana.png"
+    },
     REST: {
         name: "REST",
         path: "rest.png"
@@ -38,6 +50,10 @@ export default {
     CSS: {
         name: "CSS",
         path: "css.png"
+    },
+    HTMLCSS: {
+        name: "HTML5 en CSS",
+        path: "htmlcss.png"
     },
     JS: {
         name: "JS",
