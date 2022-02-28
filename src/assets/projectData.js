@@ -3,7 +3,7 @@ import LogoData from "@/assets/logoData";
 export default
     {
         rentalservice: {
-            title: "Rentalservice",
+            title: "Kamernet visualisatie",
             description: [
                 "Tijdens mijn studie heb ik in groepsverband een web applicatie gebouwd die data van Kamernet kon visualiseren." +
                 " De eerste stap in dit proces was het ontwerpen van een API (in de OpenAPI 3 standaard) die data kon aanleveren. " +
@@ -32,7 +32,7 @@ export default
             competences: "Webtechnologie | Containerisation | OpenAPI"
         },
         calsync: {
-            title: "Calendar sync",
+            title: "Kalendar synchronisatie",
             description: [
                 "Gedurende mijn studieperiode was mijn agenda altijd erg vol met colleges en deadlines en niet onverzichtelijk voor mijn familie." +
                 " Om mijn familie niet lastig te vallen met alle activiteiten heb ik een tool geschreven in Python die al mijn agenda's fetcht en vervolgens " +
@@ -75,7 +75,7 @@ export default
             ],
             summary: "Elk huis wordt comfortabeler als het slim is!",
             imagePath: "ha.png",
-            githubLogo: "https://github.com/Wesley-Vos/HA-PoolControl",
+            githubLogo: null,
             competences: "Automatisering | Containerisation | User Interfaces | Integraties "
         },
         pool: {

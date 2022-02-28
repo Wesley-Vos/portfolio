@@ -55,6 +55,10 @@ export default {
         name: "HTML5 en CSS",
         path: "htmlcss.png"
     },
+    HTMLCSSJS: {
+        name: "HTML5 CSS JS",
+        path: "htmlcssjs.png"
+    },
     JS: {
         name: "JS",
         path: "js.png"
@@ -82,5 +86,9 @@ export default {
     c: {
         name: "C",
         path: "c.png"
+    },
+    haskell: {
+        name: "Haskell",
+        path: "haskell.png"
     }
 }
