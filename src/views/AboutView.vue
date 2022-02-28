@@ -8,11 +8,11 @@
           <h3>Wie ben ik.</h3><br>
           <p>Ik ben Wesley Vos, {{ age() }} jaar oud en laatste jaars student computing science aan de Rijksunversiteit in Groningen.
           Daarnaast heb ik reeds mijn bachelor in natuurkunde behaald. Gedurende mijn studie natuurkunde leerde ik alle wetten kennen die
-          deze wereld bij elkaar houden maar merkte ik dat ik het miste om een product te kunnen maken, zien wat er gebeurd. Voeg dat samen met
-          mijn passie voor software ontwikkeling en de tweede studie computing science was geboren.</p><br>
-          <p>Naast mijn studie ben ik nog werkzaam bij als ondersteunend coördinator bij het ontwikkelings team voor onderwijs applicaties
+          deze wereld bij een houd maar merkte ik dat ik het miste om een product te kunnen maken, om te zien wat er gebeurt. Voeg dat samen met
+          mijn passie voor software ontwikkeling en de tweede studie computing science was een feit.</p><br>
+          <p>Naast mijn studie ben ik nog werkzaam als ondersteunend coördinator bij het ontwikkelings team voor onderwijsapplicaties
           bij de Rijksuniversiteit van Groningen. In mijn vrije tijd houd ik van reizen, duiken en heb ik een passie voor programmeren en
-            alles wat daarbij komt kijken, zoals het automatiseren van mijn woning.</p>
+            alles wat daarbij komt kijken, zoals het automatiseren van mijn huis.</p>
         </div>
         <div class="col-lg-2" style="display: flex; justify-content: center">
           <div class="verticalLine"/>
@@ -62,8 +62,8 @@ export default {
   },
   methods: {
     age: function (){
-      var ageInMilliseconds = new Date() - new Date(1999, 3, 12, 0, 0, 0);
-      return Math.floor(ageInMilliseconds/1000/60/60/24/365); // convert to years
+      let age = new Date() - new Date(1999, 3, 12, 0, 0, 0);
+      return Math.floor(age/1000/60/60/24/365); // convert to years
     }
   },
   data() {
