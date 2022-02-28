@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="view">
     <a href="https://www.linkedin.com/in/wesley-vos-09aba16a/"><img id="linkedInBadge" alt="LinkedIn page" src="@/assets/linkedinWhite.png"/></a>
-    <a style="width:10%;" href="https://github.com/wesley-vos"><img id="githubLogoMain" alt="Github page" src="@/assets/logos/githubWhite.png"/></a>
+    <a href="https://github.com/wesley-vos"><img id="githubLogoMain" alt="Github page" src="@/assets/logos/githubWhite.png"/></a>
     <HomeMe/>
   </div>
 </template>
@@ -34,7 +34,6 @@ export default {
 #home {
   background-color: #042336;
   height: 100vh;
-  justify-content: normal;
 }
 
 </style>

@@ -4,9 +4,9 @@
       <h1>{{ project.title }}</h1>
       <a v-if="project.githubLogo != null"  style="width:10%;" :href="project.githubLogo"><img class="githubLogo"  alt="Github page" :src="require('@/assets/logos/github.png')"/></a>
     </div>
+    <p class="text-dark text-start">{{ project.summary }}</p>
     <div class="projectBody row">
       <div class="col-9 description">
-        <p class="text-dark" style="padding-bottom:1em">{{ project.summary }}</p>
         <p v-for="description in project.description" :key="description" class="text-muted">{{ description }}</p>
         <p class="projectEvaluation">Competenties || <span class="text-muted">{{ project.competences }}</span></p>
       </div>
@@ -48,14 +48,14 @@ export default {
 }
 
 h1 {
-  padding-top: 2vw;
   font-weight: 300 !important;
   font-size: clamp(20px, 2.8vw, 44px);
 }
 
 .projectBody {
-  padding-bottom: 2vw;
+  padding-bottom: 2em;
   justify-content: center;
+  padding-top: 1em;
 }
 
 .projectHeader {
@@ -63,6 +63,7 @@ h1 {
   flex-flow: row wrap-reverse;
   justify-content: space-between;
   align-items: center;
+  padding-top: 2vw;
 }
 
 .githubLogo {
