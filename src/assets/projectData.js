@@ -6,15 +6,15 @@ export default
             title: "Kamernet visualisatie",
             description: [
                 "Tijdens mijn studie heb ik in groepsverband een web applicatie gebouwd die data van Kamernet kon visualiseren." +
-                " De eerste stap in dit proces was het ontwerpen van een API (in de OpenAPI 3 standaard) die data kon aanleveren. " +
+                " De eerste stap in dit proces was het ontwerpen van een API (in de OpenAPI 3 standaard) die de beschikbare data kon aanleveren aan clients. " +
                 "De tweede stap was het bouwen van een backend die de API endpoints kon serveren, hiervoor is gekozen voor Java Spring Boot." +
                 " De laatste stap was het bouwen van de frontend (SPA) die de data van de backend kon visualiseren.",
                 "De backend en frontend ondersteunen beide de basis CRUD operaties. Een aantal ingebouwde functies zijn het zoeken van woningen op basis van filters, " +
                 "het toevoegen, aanpassen en verwijderen van woningen en het genereren van statistieken op basis van een filter.",
-                "Voor het deployen van deze applicatie is gebruik gemaakt van een Docker stack van Maven (voor de Spring Boot backend), Nginx (voor de Vue.js frontend) en MariaDB als data opslag. " +
-                "Dit had als voordeel dat de applicatie snel in gebruik te nemen is en beheer en onderhoud makkelijk uit te voeren is.",
+                "Voor het deployen van deze applicatie is gebruik gemaakt van een Docker stack bestaande uit Maven (voor de Spring Boot backend), Nginx (voor de Vue.js frontend) en MariaDB (data opslag). " +
+                "Dit had als voordeel dat de applicatie snel in gebruik te nemen was en beheer en onderhoud makkelijk uit te voeren was.",
                 "Door dit project is mijn passie voor webtechnologie naar een hoger niveau gestegen en heb ik Vue.js leren kennen, mijn eerste zeer postieve ervaring " +
-                "met frontend frameworks. Na afloop van dit project ben ik mijzelf blijven ontwikkelen in deze talen en heb ik ook dit portfolio gebouwd in Vue.js."
+                "met frontend JS frameworks. Na afloop van dit project ben ik mijzelf blijven ontwikkelen in deze talen en heb ik ook dit portfolio gebouwd met Vue.js."
 
             ],
             techStack: [
@@ -32,20 +32,18 @@ export default
             competences: "Webtechnologie | Containerisation | OpenAPI"
         },
         calsync: {
-            title: "Kalendar synchronisatie",
+            title: "Agenda synchronisatie",
             description: [
                 "Gedurende mijn studieperiode was mijn agenda altijd erg vol met colleges en deadlines en niet onverzichtelijk voor mijn familie." +
-                " Om mijn familie niet lastig te vallen met alle activiteiten heb ik een tool geschreven in Python die al mijn agenda's fetcht en vervolgens " +
-                "op basis van vele criteria en filters een kleinere set activiteiten genereerd die in de familie kalendar worden gezet.",
-                "Het Python script is geroosterd om elke vijf minuten uitgevoerd te worden waarbij alle activiteiten uit de agenda's worden ingeladen, onderverdeeld in nieuwe" +
-                "activiteiten en deze nieuwe activiteiten worden vergeleken en gesynchroniseerd met de familie agenda. ",
+                " Om mijn familie niet lastig te vallen met alle activiteiten heb ik een tool geschreven in Python die geautomatiseerd en periodiek al mijn agenda activiteiten ophaalt en vervolgens " +
+                "op basis van vele criteria en filters een kleinere set activiteiten genereerd die in de familie agenda worden geplaatst (zie diagram hieronder).",
                 "Deze tool draait in een Docker container en communiceert met Home Assistant en Cronitor om te monitoren hoeveel activiteiten zijn toegevoegd en/ of verwijderd.",
             ],
             techStack: [
                 LogoData.python,
                 LogoData.docker
             ],
-            summary: "Familie kalender synchronisatie tool",
+            summary: "Familie agenda synchronisatie tool",
             imagePath: "calsync.png",
             githubLogo: "https://github.com/Wesley-Vos/calSync",
             competences: "Docker | Google API | iCal"
@@ -58,13 +56,14 @@ export default
                 " web applicatie die kon communiceren met de diverse diensten en protocollen ontdekte ik ook Home Assistant, een Open Source Python project draaiende in Docker " +
                 "wat alles kon wat ik zelf al gemaakt had en nog veel daar buiten.",
                 "Home Assistant geeft je de mogelijkheid om alle slimme apparatuur op één plek samen te brengen en te besturen en monitoren. Hoewel het integreren van " +
-                "systemen en apparaten steeds vaker via de user interface kan heb ik aan het begin veel geïntegreerd via configuratie bestanden en losse scripts.",
-                "Met de huidige set-up heb ik veel dagelijkse routines (zoals het aan- en uitschakelen van de verlichting) en het zwembad (zie hieronder) kunnen automatiseren en" +
+                "systemen en apparaten steeds vaker via de user interface kan heb ik aan het begin veel geïntegreerd via configuratie bestanden en losse scripts en zelf ook nog een aantal " +
+                "integraties ontwikkelt om in meer detail informatie van mijn Toon te kunnen ophalen.",
+                "Met de huidige set-up heb ik veel dagelijkse routines (zoals het in- en uitschakelen van de verlichting) en het zwembad (zie hieronder) kunnen automatiseren en" +
                 " bestuur ik mijn 'domme' verlichting en airconditioning." +
                 " Behalve het automatiseren gebruik ik Home Assistant ook voor het monitoren van mijn woning en daarbij voornamelijk het energie verbruik in combinatie met de " +
                 "zonnepanelen installatie (middels Influxdb en Grafana).",
                 "Aangezien ik zelf niet de enige gebruiker ben heb ik ook meerdere duidelijke user interfaces gebouwd voor de andere gebruikers zodat ook zij het slimme huis kunnen ontdekken.",
-                "Home Assistant draait op een virtuele machine op mijn zelf-gehoste en beheerde Proxmox client."
+                "Home Assistant draait op een virtuele machine op mijn zelf-gehoste en beheerde Proxmox client welke ook nog een virtuele Debian machine draait met diverse Docker stacks."
             ],
             techStack: [
                 LogoData.python,
@@ -89,9 +88,8 @@ export default
                 " ter plaatse te regelen.",
                 "Met Home Assistant is een functioneel dashboard gecreëerd waarmee het zwembad gemonitoord kan worden en de installatie slim bediend.",
                 "De momenten dat de filterpomp ingeschakeld dient te zijn is afhankelijk van vele factoren zoals bijvoorbeeld het weer, de hoeveelheid zon (gemeten middels de zonnepanelen installatie) en " +
-                "de stand van de warmtepomp (om te verwarmen moet het water circuleren). Al deze factoren zijn opgenomen in de Home Assistant setup waardoor het mogelijk werd " +
-                "om op basis hiervan een los Python script te maken welke de stand van de relay bepaalt en deze aanstuurt (alle automatisering regels zijn beschreven in Github)." +
-                ""
+                "de stand van de warmtepomp (om te verwarmen moet het water circuleren). Al deze factoren zijn opgenomen in de Home Assistant setup waardoor het mogelijk is geworden " +
+                "om op basis hiervan een los Python script te maken welke de stand van de relay bepaalt en deze aanstuurt (alle automatisering regels zijn beschreven in Github)."
             ],
             techStack: [
                 LogoData.python,
