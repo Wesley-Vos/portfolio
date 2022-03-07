@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="view">
-    <a href="https://www.linkedin.com/in/wesley-vos-09aba16a/"><img id="linkedInBadge" alt="LinkedIn page" src="@/assets/linkedinWhite.png"/></a>
+    <a href="https://www.linkedin.com/in/wesley-vos"><img id="linkedInBadge" alt="LinkedIn page" src="@/assets/linkedinWhite.png"/></a>
     <a href="https://github.com/wesley-vos"><img id="githubLogoMain" alt="Github page" src="@/assets/logos/githubWhite.png"/></a>
     <HomeMe/>
   </div>
