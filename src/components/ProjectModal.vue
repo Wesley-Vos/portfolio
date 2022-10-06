@@ -62,14 +62,14 @@ export default {
 }
 
 h1 {
-  padding-top: 2vw;
+  padding-top: 2em;
   font-weight: 300 !important;
   font-size: clamp(20px, 2.8vw, 44px);
 }
 
 .body {
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .header {

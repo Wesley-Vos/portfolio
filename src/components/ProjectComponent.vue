@@ -39,8 +39,8 @@ export default {
   border-radius: 40px;
   color: black;
   height: 100%;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .description {
@@ -63,7 +63,7 @@ h1 {
   flex-flow: row wrap-reverse;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2vw;
+  padding-top: 2em;
 }
 
 .githubLogo {

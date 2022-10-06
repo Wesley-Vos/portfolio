@@ -90,5 +90,13 @@ export default {
     haskell: {
         name: "Haskell",
         path: "haskell.png"
+    },
+    jenkins: {
+        name: "Jenkins",
+        path: "jenkins.png"
+    },
+    linux: {
+        name: "Linux",
+        path: "linux.png"
     }
 }

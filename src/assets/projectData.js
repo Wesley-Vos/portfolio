@@ -104,14 +104,14 @@ export default
         toon: {
             title: "Slimme Toon",
             description: [
-                "De slimme thermostaat Toon kan middels zijn ingebouwde Qml applicatie diverse tegels weergeven." +
+                "De slimme thermostaat Toon kan via de embedded Qt applicatie diverse tegels weergeven." +
                 "Wanneer je root toegang op de thermostaat hebt verkregen, heb je ook de mogelijkheid om zelf extra apps en tegels toe te voegen.",
                 " De bestaande app voor Home Assistant heb ik uitgebreid met extra tegels waarmee je bijvoorbeeld het energie verbruik in huis" +
                 "grafisch kan tonen middels een 'power wheel' (zie afbeelding).",
-                "De Toon haalt de data op van de REST API van Home Assistant en presenteert deze in de QML objecten op de Toon."
+                "De Toon haalt de data op van de REST API van Home Assistant en presenteert deze op de Toon."
             ],
             techStack: [
-                LogoData.qml,
+                LogoData.qt,
                 LogoData.HA
             ],
             summary: "Slimme thermostaat Toon uitgebreid met meer tegels",
