@@ -2,6 +2,35 @@ import LogoData from "@/assets/logoData";
 
 export default
     {
+        beegrader: {
+            title: "Examen nakijktool",
+            description: [
+                "Voor mijn afstudeerproject van mijn bachelor informatica heb ik bij mijn toenmallige werkgever, team ESI de nakijktool voor de examen omgeving ontwikkelt.",
+                "De nakijktool is gemaakt voor docenten om open examen vragen  efficiënt en uitgebreid te kunnen beoordelen." +
+                    " De applicatie welke gebruikt wordt voor het afnemen van de examens biedt niet genoeg mogelijkheden voor het nakijken waardoor er gekozen is om zelf een tool te ontwikkelen.",
+                "De ontwikkelde nakijktool is een web applicatie met een losse backend en frontend. De backend is geschreven in Java Spring Boot met een REST API en de frontend in het Javascript framework React." +
+                    " Voor het ophalen van de ingeleverde antwoordvragen en het opslaan van de beoordelingen maakt de backend een verbinding met de examen applicatie waarbij OAuth gebruikt wordt om bij de examen applicatie te authenticeren namens de docent.",
+                "Bij aanvang van het project is eerst het gehele project ontworpen en uitgedacht en gevat in de benodige user stories. Vervolgens zijn de user stories meegenomen in de sprints van het team en heb ik de applicatie ontwikkeld." +
+                    " Gedurende het ontwikkelen is de code constant gereviewed door collega's om efficiënt te werken." +
+                    " Voor het waarborgen van de kwaliteit is de applicatie uitgerold in de OTAP straat van het team om zo integraties te kunnen testen en eindgebruikers in een vroeg stadium de applicatie te laten testen.",
+                "Binnen dit project heb ik mijzelf verder ontwikkelt als full-stack developer door zowel de backend als frontend en verbindingen met derde-partijen te ontwikkelen." +
+                    " Daarnaast heb ik ook meer ervaring op gedaan met het uitrollen van een applicatie in een OTAP Straat."
+
+            ],
+            techStack: [
+                LogoData.spring,
+                LogoData.React,
+                LogoData.REST,
+                LogoData.Postgresql,
+                LogoData.nginx,
+                LogoData.oauth,
+                LogoData.HTMLCSS
+            ],
+            summary: "Nakijktool voor digitale examens",
+            imagePath: null,
+            githubLogo: null,
+            competences: "Webtechnologie | third-party API"
+        },
         rentalservice: {
             title: "Kamernet visualisatie",
             description: [

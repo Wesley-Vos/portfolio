@@ -11,7 +11,12 @@ export default
                 " De eerste stap in dit proces was het ontwerpen van een API (in de OpenAPI 3 standaard) die de beschikbare data kon aanleveren aan clients.",
                 "test",
             ],
-            function: "Software engineer"
+            function: "Software engineer",
+            competences: [
+                "Team work",
+                "Frontend",
+                "Operations"
+            ]
         },
         rug2: {
             start: "Nov '21",

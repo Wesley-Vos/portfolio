@@ -2,7 +2,7 @@
   <div style="display: flex; flex-direction: column; align-items: center;">
     <div class="verticalLine" style="height:3em; border-color: white"></div>
     <div class="circle"/>
-    <div class="experienceComponent">
+    <div class="experienceComponent" style="margin-bottom:1rem">
       <div class="row gx-5" style="padding-top: 1em">
         <div class="col-3" id="dateSection">
           <h6>{{experience.end}}</h6><br><br>
@@ -12,18 +12,25 @@
           <h5 style="margin-bottom:0">{{ experience.name }}</h5>
           <p style="margin-bottom:0.5em">{{ experience.team}}</p>
           <p class="text-muted"><i>{{ experience.function }}</i></p>
-          <p v-for="line in experience.description" :key="line">{{ line }}</p>
-          <!--        <p>Competenties || <span class="text-muted">{{ experience.competences }}</span></p>-->
+          <p style="margin-bottom:0" v-for="line in experience.description" :key="line">{{ line }}</p>
         </div>
-
+      </div>
+      <br>
+      <div class="competencesContainer">
+        <TextLabel v-for="label in experience.competences" :key="label" :text="label"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import TextLabel from "@/components/TextLabel";
+
 export default {
   name: "ExperienceComponent",
+  components: {
+    TextLabel
+  },
   props: {
     experience: Object
   }
@@ -61,5 +68,11 @@ export default {
   background-color: white;
   margin-bottom: -1em;
   z-index: 2;
+}
+
+.competencesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 </style>
