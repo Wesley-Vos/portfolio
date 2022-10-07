@@ -14,7 +14,7 @@ export default
                     " Gedurende het ontwikkelen is de code constant gereviewed door collega's om efficiënt te werken." +
                     " Voor het waarborgen van de kwaliteit is de applicatie uitgerold in de OTAP straat van het team om zo integraties te kunnen testen en eindgebruikers in een vroeg stadium de applicatie te laten testen.",
                 "Binnen dit project heb ik mijzelf verder ontwikkelt als full-stack developer door zowel de backend als frontend en verbindingen met derde-partijen te ontwikkelen." +
-                    " Daarnaast heb ik ook meer ervaring op gedaan met het uitrollen van een applicatie in een OTAP Straat."
+                    " Daarnaast heb ik ook mijn kennis over het uitrollen van een applicatie in een OTAP Straat verreikt."
 
             ],
             techStack: [

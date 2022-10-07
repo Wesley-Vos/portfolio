@@ -12,7 +12,7 @@
           <h5 style="margin-bottom:0">{{ experience.name }}</h5>
           <p style="margin-bottom:0.5em">{{ experience.team}}</p>
           <p class="text-muted"><i>{{ experience.function }}</i></p>
-          <p style="margin-bottom:0" v-for="line in experience.description" :key="line">{{ line }}</p>
+          <p v-for="line in experience.description" :key="line">{{ line }}</p>
         </div>
       </div>
       <br>
