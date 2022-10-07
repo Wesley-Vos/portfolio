@@ -22,7 +22,7 @@ export default {
 <style scoped>
 .techBadge {
   text-align: left;
-  margin-bottom: 1vw;
+  margin-bottom: 1em;
   color: white;
   padding: 1em;
   width: 100%;

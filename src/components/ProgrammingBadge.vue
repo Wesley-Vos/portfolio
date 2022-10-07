@@ -5,8 +5,8 @@
       <p>{{ logo.name }}</p>
     </div>
     <div class="flexbox" style="flex-direction: row; margin-top:1em">
-      <p>{{ level }}</p>
-      <p> {{  langStyle }}</p>
+      <p class="text-muted" v-if="level">{{ level }}</p>
+      <p v-if="langStyle"> {{ langStyle }}</p>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
 
 .programmingBadge {
   text-align: left;
-  margin-bottom: 1vw;
+  margin-bottom: 1em;
   color: white;
   padding: 1em;
   width: 100%;
