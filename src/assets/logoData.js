@@ -90,5 +90,25 @@ export default {
     haskell: {
         name: "Haskell",
         path: "haskell.png"
+    },
+    jenkins: {
+        name: "Jenkins",
+        path: "jenkins.png"
+    },
+    linux: {
+        name: "Linux",
+        path: "linux.png"
+    },
+    React: {
+        name: "React",
+        path: "react.png"
+    },
+    Postgresql: {
+        name: "PostgreSQL",
+        path: "postgresql.png"
+    },
+    oauth: {
+        name: "OAuth 2.0",
+        path: "oauth.png"
     }
 }

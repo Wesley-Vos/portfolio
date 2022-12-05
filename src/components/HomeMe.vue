@@ -1,10 +1,10 @@
 <template>
   <div id="main">
     <div class="mainText">
-      <h1>Hi! I'm</h1>
+      <h1 class="text-center">Hi! I'm</h1>
       <h2>Wesley.</h2>
       <div class="highlighted_title">
-        <h3>Developer</h3>
+        <h3>Software Developer</h3>
       </div>
     </div>
     <div class="mainPhoto">
