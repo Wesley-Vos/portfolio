@@ -28,7 +28,7 @@
               <ProgrammingBadge :logo="logo.python" langStyle="OOP" level="Expert"/>
             </div>
             <div class="col-sm-6">
-              <ProgrammingBadge :logo="logo.java" langStyle="OOP" level="Basics"/>
+              <ProgrammingBadge :logo="logo.java" langStyle="OOP" level="Advanced"/>
             </div>
             <div class="col-sm-6">
               <ProgrammingBadge :logo="logo.Vue" langStyle="Frontend" level="Basics"/>
