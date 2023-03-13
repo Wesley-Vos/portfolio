@@ -23,8 +23,7 @@
         </div>
         <div class="col-lg-5 aboutColumn">
           <h3>Wat doe ik.</h3><br>
-          <p>Ik ben een gepassioneerd full-stack software ontwikkelaar die moment werkzaam is als software engineer in het UI/UX domein bij XPAR Vision.
-          Binnen deze functie ontwerp ik user interfaces voor hot-end sensoren in de glasindustrie.</p>
+          <p>Ik ben een gepassioneerd full-stack software ontwikkelaar die momenteel werkzaam is bij DPA als Java Consultant.</p>
           <p>Naast mijn werk doe ik veel aan software ontwikkeling en programmeren, verschillend van een kort scriptje om die ene
           saaie taak sneller uit te voeren tot het maken van grotere applicaties welke verderop in detail zijn te vinden of het automatiseren van mijn huis. Door de jaren heen heb ik diverse
             talen leren kennen, waaronder</p>
