@@ -88,8 +88,10 @@ export default {
   },
   methods: {
     age: function (){
-      let age = new Date() - new Date(1999, 3, 12, 0, 0, 0);
-      return Math.floor(age/1000/60/60/24/365); // convert to years
+      const now = new Date()
+      let diff = now.getFullYear() - 1999 - 1
+      diff += (now.getMonth() >= 2 && now.getDate() >= 12)
+      return diff
     }
   },
   data() {
